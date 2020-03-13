@@ -6,9 +6,9 @@
 </head>
 
 <body>
-	<a href="#" id="close-window">Close this window tab</a>
+<!-- 	<a href="#" id="close-window">Close this window tab</a>
 	
-	<input type="button" value="Close this window" onclick="self.close()">
+	<input type="button" value="Close this window" onclick="self.close()"> -->
 
 	<script type="text/javascript">
  		//window.open('','_self').close();
@@ -21,9 +21,12 @@
 		
 		
 		
-		document.getElementById("close-window").addEventListener("click", function(){ 
-       window.close();
-   });
+// 		document.getElementById("close-window").addEventListener("click", function(){ 
+//        window.close();
+//    });
+		
+		
+		open(location, '_self').close();
 	</script>
 
 </body>
